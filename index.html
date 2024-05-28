@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenido a Mi Página Personal</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre Mí</a></li>
+                    <li><a href="resume.html">Hoja de Vida</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <img src="images/wendy.jpg" alt="Foto de perfil" class="profile-pic">
+                <div style="display: inline-block; width: 55%; vertical-align: top; margin-left: 5%;">
+                    <h2>Hola! soy <span style="color: #890e99;">Wendy Ayala Hernandez,</span></h2>
+                    <p><span>👩🏼‍💻</span> Estudiante Ingenieria de Software.<br> ¡Bienvenid@ a mi página personal! Te invito a explorarla para que puedas conocer más sobre mí. ¡Espero te diviertas!</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> wayala@ucompensar.edu.co</p>
+                        <p><i class="fas fa-phone"></i> +57 32248256998</p>
+                        <p><i class="fas fa-map"></i> Colombia</p>
+                        <p><i class="fas fa-birthday-cake"></i> 29 Años</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form action="https://formspree.io/f/{tu-form-id}" method="POST">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Wendy Ayala. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
