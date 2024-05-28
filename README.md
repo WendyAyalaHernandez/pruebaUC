@@ -1,4 +1,4 @@
-## información sobre mí, hoja de vida y contacto.
+## Información sobre mí, hoja de vida y contacto.
 ## Contenido
 
 - **index.html**: Este archivo contiene la estructura HTML de mi página personal.
